@@ -7,7 +7,7 @@
 
 
 ## makeCacheMatrix is a wrapper function which creates the functions required to calculate the inverse of a matrix and  
-## store it in memory. The matrix for which the inverse is to be calculated is passed as the argument for this function.
+## store it in memory. The matrix for which the inverse is to be calculated is passed as the argument to this function.
 
 makeCacheMatrix <- function (x=matrix()){
         
@@ -56,10 +56,4 @@ cacheSolve <- function(y=matrix(), list) {       ## The output of the makeCacheM
                 }
         }
                 
-}
-
-
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
 }
